@@ -11,7 +11,6 @@ public class BeanDefinitionTest {
 
     AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
 //    GenericXmlApplicationContext gxac = new GenericXmlApplicationContext("appConfig.xml");
-
     @Test
     @DisplayName("빈 설정 메타정보 확인")
     void findApplicationBean() {
