@@ -1,2 +1,7 @@
-package hello.core.ch03.discount;public interface DiscountPolicy {
+package hello.core.ch03.discount;
+
+import hello.core.ch03.member.Member;
+
+public interface DiscountPolicy {
+    int discount(Member member, int price);
 }

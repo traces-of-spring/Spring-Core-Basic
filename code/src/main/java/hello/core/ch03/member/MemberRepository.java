@@ -1,2 +1,7 @@
-package hello.core.ch03.member;public interface MemberRepository {
+package hello.core.ch03.member;
+
+public interface MemberRepository {
+    void save(Member member);
+
+    Member findById(Long memberId);
 }
