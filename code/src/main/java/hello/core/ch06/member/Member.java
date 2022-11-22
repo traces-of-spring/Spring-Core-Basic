@@ -1,6 +1,6 @@
-package hello.core.ch03.member;
+package hello.core.ch06.member;
 
-import hello.core.ch03.member.Grade;
+import hello.core.ch06.member.Grade;
 
 public class Member {
     private Long id;
