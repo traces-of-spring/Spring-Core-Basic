@@ -3,7 +3,6 @@ package hello.core.ch04;
 import hello.core.ch03.discount.FixDiscountPolicy;
 import hello.core.ch03.discount.RateDiscountPolicy;
 import hello.core.ch03.discount.DiscountPolicy;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.NoUniqueBeanDefinitionException;
