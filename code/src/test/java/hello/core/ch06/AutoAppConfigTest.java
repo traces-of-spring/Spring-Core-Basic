@@ -1,5 +1,6 @@
 package hello.core.ch06;
 
+import hello.core.ch06.member.MemberRepository;
 import hello.core.ch06.member.MemberService;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
